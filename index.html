@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BE5QDM14NY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BE5QDM14NY');
+</script>
+
 <body>
     <h1>My To-Do List</h1>
     <div class="container">
@@ -25,16 +36,5 @@
                 .catch(err => console.error('Service Worker Error:', err));
         }
     </script>
-    
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BE5QDM14NY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BE5QDM14NY');
-</script>
-
 </body>
 </html>
